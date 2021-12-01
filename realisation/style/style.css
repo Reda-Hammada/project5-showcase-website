@@ -1,0 +1,24 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar starts */
+
+.nav-container .nav-list ul  li {
+
+    display: inline;
+    margin-left: 40px;
+    
+}
+
+.nav-container{
+
+    background-image: url("../images/tennis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 30px;
+    color: #fff;
+}
