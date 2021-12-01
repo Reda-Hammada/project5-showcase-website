@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+
+
+:root {
+
+    --universal-font: var('Roboto', sans-serif);
+
+}
+
 * {
 
     margin: 0;
@@ -21,4 +31,6 @@
     height: 500px;
     padding-top: 30px;
     color: #fff;
+    font-family: var(--universal-font);
+
 }
