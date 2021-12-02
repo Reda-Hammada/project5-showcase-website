@@ -66,6 +66,8 @@ body {
 
 /* products container */
 
+
+
 .products-ultimate-container .new-container h2 {
 
     color: var(--secondary-color);
@@ -80,11 +82,21 @@ body {
 
 .products-ultimate-container .rackets-container {
 
-    width: 100%;
-    margin-left: 20px;
+    width: 90%;
     margin-top:  40px;
     font-family: var(--universal-font);
-    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rackets-container button {
+
+    margin-top: 10px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+
 }
 
 .rackets-container img {
@@ -97,6 +109,7 @@ body {
 .rackets-container p {
 
     text-align: center;
+    margin-top: 20px;
 }
 
 .racket1-container,
@@ -105,8 +118,11 @@ body {
 .racket4-container{
     border: solid 1px grey;
     width: 80%;
-    height: 380px;
+    height: 400px;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
  
 }
@@ -125,15 +141,20 @@ body {
 .products-ultimate-container .products2-container {
 
     font-family: var(--universal-font);
-    width: 100%;
+    width: 90%;
     margin-top: 60px;
-    margin-left: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 
 .products2-container p {
     text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    
 }
 
 .products2-container img {
@@ -142,6 +163,14 @@ body {
     border-bottom: 1px solid grey;
 }
 
+.products2-container button {
+
+    margin-top: 10px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+}
 
 .polo-t-shirt-container1,
 .polo-t-shirt-container2,
@@ -151,7 +180,11 @@ body {
     width: 80%;
     border: solid 1px grey;
     height: 380px;
-    margin-top: 10px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     
 }
 
@@ -164,4 +197,90 @@ body {
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
+}
+
+/* products end */
+/* features starts */
+
+
+.ultimate-features-container {
+
+    width: 100%;
+    font-family: var(--universal-font);
+    
+}
+.features-container {
+
+    margin-top: 200px;
+    width: 90%;
+    text-align: center;
+}
+
+.features-container p{
+
+    margin-top: 20px;
+
+}
+
+ /* features end */
+
+ /* footer */
+
+ footer{
+
+    width: 100%;
+    height: 300px;
+    background-color: rgb(214, 214, 214);
+ }
+
+ .subscribe-container {
+
+    margin-top: 200px;
+ }
+
+  
+.subscribe-form-container {
+
+    margin-top: 150px;
+    text-align: center;
+    font-family: var(--universal-font);
+
+    
+}
+
+.subscribe-form-container h3 {
+
+    color:var(--secondary-color);
+    margin-bottom: 30px;
+}
+
+
+.subscribe-form-container #email-input{
+    width: 450px;
+    height: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding-left: 20px;
+    border-style: none;
+    color: #fff;
+
+}
+.subscribe-form-container #subscribe-button {
+    color: var(--secondary-color);
+    color: #fff;
+    background-color: var(--secondary-color);
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+    border-style: none;
+    margin-left: 20px;
+    
 }
