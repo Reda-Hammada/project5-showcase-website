@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
 
     --universal-font: 'Roboto', sans-serif;
     --hovering-color: #D1D809;
+    --secondary-color: #918B3D;
 
 }
 
@@ -45,6 +45,7 @@ body {
     font-family: var(--universal-font);
     font-weight:bold;
     cursor: pointer;
+    width: 100%;
 
 
 }
@@ -60,6 +61,69 @@ body {
     color: var(--hovering-color);
 
 }
+
+/* navbar ends*/
+
+/* products container */
+
+.products-ultimate-container .new-container h2 {
+
+    color: var(--secondary-color);
+    font-family: var(--universal-font);
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #000;
+    width: 90%;
+}
+
+.products-ultimate-container .rackets-container {
+
+    width: 100%;
+    margin-left: 20px;
+    margin-top:  40px;
+    font-family: var(--universal-font);
+    
+}
+
+.rackets-container img {
+    width: 100%;
+    text-align: center;
+   
+}
+
+
+
+.rackets-container p {
+
+    text-align: center;
+}
+
+.racket1-container,
+.racket2-container,
+.racket3-container,
+.racket4-container{
+    border: solid 1px grey;
+    width: 80%;
+    height: 480px;
+    margin-top: 10px;
+    
+ 
+}
+
+.racket1-container:hover,
+.racket2-container:hover,
+.racket3-container:hover,
+.racket4-container:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
 
 
 
