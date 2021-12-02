@@ -14,18 +14,24 @@
     padding: 0;
 }
 
+body {
+
+    overflow-x: hidden;
+}
+
 /* navbar starts */
 
 .nav-container .nav-list ul  li {
 
     display: inline;
     margin-left: 40px;
-    
+   
 }
 
-.nav-container ul li:hover {
 
+.nav-container  li:hover {
     color: var(--hovering-color) ;
+    
 }
 
 .nav-container{
