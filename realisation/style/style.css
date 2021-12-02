@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 
 :root {
 
-    --universal-font: var('Roboto', sans-serif);
+    --universal-font: 'Roboto', sans-serif;
+    --hovering-color: #D1D809;
 
 }
 
@@ -23,6 +23,11 @@
     
 }
 
+.nav-container ul li:hover {
+
+    color: var(--hovering-color) ;
+}
+
 .nav-container{
 
     background-image: url("../images/tennis.jpg");
@@ -32,5 +37,23 @@
     padding-top: 30px;
     color: #fff;
     font-family: var(--universal-font);
+    font-weight:bold;
+    cursor: pointer;
+
 
 }
+
+.nav-container p {
+    margin-left:100px;
+    font-size: 1.5rem;
+    
+}
+
+.nav-container p:hover {
+
+    color: var(--hovering-color);
+
+}
+
+
+
