@@ -3,8 +3,11 @@
 
  :root {
 
-    --universal-font:'Roboto', sans-serif;
- }
+    --universal-font: 'Roboto', sans-serif;
+    --hovering-color: #D1D809;
+    --secondary-color: #918B3D;
+
+}
  * {
      margin: 0;
      padding: 0;
@@ -16,4 +19,57 @@ body {
     overflow-x: hidden;
     background-color: whitesmoke;
 
+}
+.contactus-container {
+    text-align: center;
+    font-family: var(--universal-font);
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color:var(--secondary-color);
+    
+}
+
+.form-container form  {
+ 
+text-align: center;
+margin-top: 20px;
+font-family: var(--universal-font);
+
+}
+
+.form-container input {
+
+    width: 550px;
+    margin-bottom: 20px;
+    height: 44px;
+    border-radius: 7px;
+    border: solid 0.5px grey;
+    padding-left: 20px;
+    
+
+}
+
+.form-container #bt {
+
+    width: 130px;
+    padding-left: 0px;
+    border-radius: 7px;
+    color: #fff;
+    font-family: var(--universal-font);
+    background-color: var(--secondary-color);
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.form-container textarea {
+    resize: none;
+    width: 550px;
+    height: 200px;
+    padding-left: 20px;
+    opacity: 0.6;
+    padding-top: 10px;
+    border-radius: 7px;
+    
 }
