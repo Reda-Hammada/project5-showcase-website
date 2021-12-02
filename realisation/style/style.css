@@ -89,7 +89,6 @@ body {
 
 .rackets-container img {
     width: 100%;
-    text-align: center;
    
 }
 
@@ -106,7 +105,7 @@ body {
 .racket4-container{
     border: solid 1px grey;
     width: 80%;
-    height: 480px;
+    height: 380px;
     margin-top: 10px;
     
  
@@ -123,7 +122,46 @@ body {
     -o-transform: scale(1.1);
 }
 
+.products-ultimate-container .products2-container {
+
+    font-family: var(--universal-font);
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 20px;
+
+}
 
 
+.products2-container p {
+    text-align: center;
+}
+
+.products2-container img {
+
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
 
 
+.polo-t-shirt-container1,
+.polo-t-shirt-container2,
+.sneaker-container,
+.short-container{
+
+    width: 80%;
+    border: solid 1px grey;
+    height: 380px;
+    margin-top: 10px;
+    
+}
+
+.polo-t-shirt-container1:hover,
+.polo-t-shirt-container2:hover,
+.short-container:hover,
+.sneaker-container:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
