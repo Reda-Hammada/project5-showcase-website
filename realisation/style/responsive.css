@@ -1,14 +1,18 @@
 /* responsive for home page */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) { /* mobile */
 
     
+    .nav-container {
 
-
+        width: 100%;
+        text-align: center;
+    }
 
     .nav-list   {
 
         margin-top:  30px;
+        
     }
 
     .racket1-container,
@@ -61,4 +65,12 @@
         width: 60%;
     }
 
+}
+
+@media  only screen and (min-wdith: 801px) and (max-width: 1024px) { /* tablest */
+    
+    body{ 
+
+            background-color: black;
+    }
 }
