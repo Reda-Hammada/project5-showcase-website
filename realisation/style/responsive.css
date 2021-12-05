@@ -1,7 +1,70 @@
 /* responsive for home page */
 
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 800px) {
 
-    
+    .nav-container {
+
+        width: 100%;
+
+    }
+
+
+
+    .nav-list  {
+
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .racket1-container,
+    .racket2-container,
+    .racket3-container,
+    .racket4-container{ 
+
+                margin-bottom: 200px;
+                height: 80%;
+                width: 100%;
+    }
+
+
+    .polo-t-shirt-container1,
+    .sneaker-container,
+    .short-container{
+
+        margin-bottom: 150px;
+        height: 70%;
+        width: 100%;
+
+    }
+
+    .polo-t-shirt-container2 {
+
+        height: 90% ;
+        margin-bottom: 10px ;
+        width: 100%;
+
+    }
+
+    .discount-container,
+    .fast-delivery-container,
+    .free-shipping-container,
+    .secure-payment-container {
+
+        height: 90%;
+        margin-bottom: 20px;
+
+    }
+
+    .subscribe-form-container {
+
+        margin-top: 40px;
+    }
+
+    .subscribe-form-container #email-input {
+
+        margin-bottom: 40px;
+    }
 
 }
