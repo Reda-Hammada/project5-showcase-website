@@ -1,6 +1,6 @@
 /* responsive for home page */
 
-@media only screen and (max-width: 800px) { /* mobile */
+@media only screen and (max-width: 1024px) { /* mobile and tablets */
 
     
     .nav-container {
@@ -67,10 +67,4 @@
 
 }
 
-@media  only screen and (min-wdith: 801px) and (max-width: 1024px) { /* tablest */
-    
-    body{ 
 
-            background-color: black;
-    }
-}
